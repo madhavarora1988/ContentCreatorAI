@@ -39,14 +39,14 @@ Input and output guardrail agents ensure topics and generated content are approp
 
 ## Quickstart
 
-1. **Install dependencies** (ensure you have Python 3.10+ and a virtual environment):
+1. **Install dependencies** (ensure you have Python 3.10+ and [uv](https://github.com/astral-sh/uv) installed):
    ```bash
-   pip install -r requirements.txt
+   uv pip install -r pyproject.toml
    ```
 
 2. **Run the main orchestrator script:**
    ```bash
-   python content_creator_ai/main.py
+   python main.py
    ```
 
 3. **Follow the menu prompts** to select a pattern or run the full suite.
